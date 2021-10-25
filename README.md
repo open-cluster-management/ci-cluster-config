@@ -1,2 +1,3 @@
-# ci-cluster-config
-Configuration-as-code driven to the CI infra cluster by OpenShift GitOps
+# CI Cluster Config
+
+This repository contains configuration for our CI Cluster - known as "hivemind" - to be loaded as an ArgoCD/OpenShift GitOps application!
