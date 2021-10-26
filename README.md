@@ -4,7 +4,7 @@ This repository contains configuration for our CI Cluster - known as "hivemind" 
 
 ## Updating a ClusterPool
 
-If yuou wish to update a ClusterPool to a newer OCP release, or create a new pool, you can do the following:
+If you wish to update a ClusterPool to a newer OCP release, or create a new pool, you can do the following:
 
 1. Clone this repository and checkout a new branch.
 2. Create a new ClusterImageSet in the appropriate folder (or create a new folder for a new Y-stream) in the `ci-pools/clusterimagesets` directory.  **Try to keep naming consistent as `openshift-vXYZ`.**
