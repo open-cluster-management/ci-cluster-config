@@ -6,7 +6,11 @@ metadata:
 spec:
   baseDomain: az.red-chesterfield.com
   imageSetRef:
+<<<<<<< HEAD
     name: openshift-v498
+=======
+    name: openshift-v495
+>>>>>>> origin/main
   installConfigSecretTemplateRef:
     name: azure-standard-install-config
   platform:

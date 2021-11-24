@@ -6,7 +6,11 @@ metadata:
 spec:
   baseDomain: aws.red-chesterfield.com
   imageSetRef:
+<<<<<<< HEAD
     name: openshift-v496
+=======
+    name: openshift-v494
+>>>>>>> origin/main
   installConfigSecretTemplateRef:
     name: aws-standard-install-config
   platform:
