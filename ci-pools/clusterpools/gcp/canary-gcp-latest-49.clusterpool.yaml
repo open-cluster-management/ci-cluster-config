@@ -6,7 +6,7 @@ metadata:
 spec:
   baseDomain: gcp.red-chesterfield.com
   imageSetRef:
-    name: openshift-v495
+    name: openshift-v498
   installConfigSecretTemplateRef:
     name: gcp-standard-install-config
   platform:
