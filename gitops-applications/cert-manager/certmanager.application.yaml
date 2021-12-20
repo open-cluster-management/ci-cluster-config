@@ -9,8 +9,8 @@ spec:
   project: default
   source:
     path: operators/cert-manager
-    repoURL: 'https://github.com/open-cluster-management/acm-aap-aas-operations'
-    targetRevision: main
+    repoURL: 'https://github.com/open-cluster-management/ci-cluster-config'
+    targetRevision: add-cert-manager
   syncPolicy:
     automated:
       selfHeal: true
