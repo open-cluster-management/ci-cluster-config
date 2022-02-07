@@ -1,6 +1,0 @@
-apiVersion: hive.openshift.io/v1
-kind: ClusterImageSet
-metadata:
-  name: openshift-v4647
-spec:
-  releaseImage: 'quay.io/openshift-release-dev/ocp-release:4.6.47-x86_64'

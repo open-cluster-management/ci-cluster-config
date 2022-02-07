@@ -1,12 +1,12 @@
 apiVersion: hive.openshift.io/v1
 kind: ClusterPool
 metadata:
-  name: canary-gcp-latest-49
+  name: canary-gcp-latest-410
   namespace: clusterpool
 spec:
   baseDomain: gcp.red-chesterfield.com
   imageSetRef:
-    name: openshift-v4918
+    name: openshift-v4100
   installConfigSecretTemplateRef:
     name: gcp-standard-install-config
   platform:
