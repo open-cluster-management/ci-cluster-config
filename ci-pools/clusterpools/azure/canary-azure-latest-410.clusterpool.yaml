@@ -6,7 +6,7 @@ metadata:
 spec:
   baseDomain: az.red-chesterfield.com
   imageSetRef:
-    name: openshift-v4100-rc1
+    name: openshift-latest-v4100
   installConfigSecretTemplateRef:
     name: azure-standard-install-config
   platform:
