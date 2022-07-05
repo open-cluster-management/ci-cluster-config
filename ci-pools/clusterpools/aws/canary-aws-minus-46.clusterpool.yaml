@@ -8,7 +8,7 @@ spec:
   imageSetRef:
     name: openshift-minus-46
   installConfigSecretTemplateRef:
-    name: aws-standard-install-config
+    name: aws-49-and-below-install-config
   platform:
     aws:
       credentialsSecretRef:
