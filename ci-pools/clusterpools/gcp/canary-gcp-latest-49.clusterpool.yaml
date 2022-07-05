@@ -8,7 +8,7 @@ spec:
   imageSetRef:
     name: openshift-latest-49
   installConfigSecretTemplateRef:
-    name: gcp-standard-install-config
+    name: gcp-49-and-below-install-config
   platform:
     gcp:
       credentialsSecretRef:
