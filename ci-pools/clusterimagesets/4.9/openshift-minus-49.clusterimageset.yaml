@@ -3,4 +3,4 @@ kind: ClusterImageSet
 metadata:
   name: openshift-minus-49
 spec:
-  releaseImage: 'quay.io/openshift-release-dev/ocp-release:4.9.37-x86_64'
+  releaseImage: 'quay.io/openshift-release-dev/ocp-release:4.9.41-x86_64'
