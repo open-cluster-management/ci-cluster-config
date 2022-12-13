@@ -1,19 +1,19 @@
 apiVersion: hive.openshift.io/v1
 kind: ClusterPool
 metadata:
-  name: canary-gcp-latest-411
+  name: canary-aws-latest-412
   namespace: clusterpool
 spec:
-  baseDomain: gcp.red-chesterfield.com
+  baseDomain: aws.red-chesterfield.com
   imageSetRef:
-    name: openshift-latest-411
+    name: openshift-latest-412
   installConfigSecretTemplateRef:
-    name: gcp-standard-install-config
+    name: aws-standard-install-config
   platform:
-    gcp:
+    aws:
       credentialsSecretRef:
-        name: gcp-creds
-      region: us-east1
+        name: aws-creds
+      region: us-east-2
   pullSecretRef:
     name: clusterpool-pull-secret
   size: 2

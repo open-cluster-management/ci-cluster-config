@@ -1,12 +1,12 @@
 apiVersion: hive.openshift.io/v1
 kind: ClusterPool
 metadata:
-  name: canary-azure-latest-410
+  name: canary-azure-latest-412
   namespace: clusterpool
 spec:
   baseDomain: az.red-chesterfield.com
   imageSetRef:
-    name: openshift-latest-410
+    name: openshift-latest-412
   installConfigSecretTemplateRef:
     name: azure-standard-install-config
   platform:
