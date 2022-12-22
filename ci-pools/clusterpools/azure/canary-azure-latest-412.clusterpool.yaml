@@ -17,4 +17,4 @@ spec:
       region: eastus
   pullSecretRef:
     name: clusterpool-pull-secret
-  size: 2
+  size: 0
