@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: operators/cert-manager
-    repoURL: 'https://github.com/gurnben/ci-cluster-config'
+    repoURL: 'https://github.com/stolostron/ci-cluster-config'
     targetRevision: main
   syncPolicy:
     automated:
