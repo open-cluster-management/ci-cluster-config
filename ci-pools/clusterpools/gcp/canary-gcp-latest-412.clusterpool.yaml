@@ -16,4 +16,4 @@ spec:
       region: us-east1
   pullSecretRef:
     name: clusterpool-pull-secret
-  size: 0
+  size: 1
