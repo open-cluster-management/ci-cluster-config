@@ -3,4 +3,4 @@ kind: ClusterImageSet
 metadata:
   name: openshift-latest-412
 spec:
-  releaseImage: 'quay.io/openshift-release-dev/ocp-release:4.12.50-multi'
+  releaseImage: 'quay.io/openshift-release-dev/ocp-release:4.12.61-multi'
